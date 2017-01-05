@@ -8,7 +8,8 @@ function stackLetters (theAlphabetArray) {
          outputs the letters.
         */
    for (let i = 0; i < theAlphabetArray.length; i++)
-
+      theAlphabetArray.push(alphapbet[i])
+      console.log(theAlphabetArray)
 }
 
 // Invoke the function and pass in the array
